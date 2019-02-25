@@ -8,7 +8,7 @@ client.on('message',message{
     message.reply('rien');
     console.log('répond a tfq');
 }
-})
+});
 const token = process.env.token;
 bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
